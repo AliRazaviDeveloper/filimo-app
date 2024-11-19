@@ -8,9 +8,13 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      container: {
+        padding: "1rem",
+        center: true,
+      },
+      backgroundImage: {
+        "dark-gradient":
+          "linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url('/images/bg.jpg')",
       },
     },
   },
